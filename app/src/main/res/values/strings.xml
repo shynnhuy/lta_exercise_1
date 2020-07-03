@@ -8,4 +8,8 @@
     <string name="sugar">Sugar</string>
     <string name="pay">Pay</string>
     <string name="cream">Cream</string>
+    <string name="to_relative_layout_design">To Relative Layout Design</string>
+    <string name="to_linear_layout_design">to linear layout design</string>
+    <string name="ex1">EX1 WITH LINEAR LAYOUT</string>
+    <string name="ex2">EX1 WITH RELATIVE LAYOUT</string>
 </resources>
