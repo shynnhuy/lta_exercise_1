@@ -55,7 +55,7 @@
         android:layout_gravity="left"
         android:buttonTint="@android:color/white"
         android:textColor="@android:color/white"
-        android:text="Cream" />
+        android:text="@string/cream" />
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
