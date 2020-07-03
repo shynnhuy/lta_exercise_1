@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_type_of_coffee"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+        <RadioButton
+            android:id="@+id/rad_decaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:text="@string/decaf"/>
+        <RadioButton
+            android:id="@+id/rad_espresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:text="@string/espresso"/>
+        <RadioButton
+            android:id="@+id/rad_columbian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:text="@string/columbia"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_else_in_your_coffee"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:buttonTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:text="Cream" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:buttonTint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:text="@string/sugar" />
+
+    <Button
+        android:id="@+id/payBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="56dp"
+        android:paddingRight="56dp"
+        android:text="@string/pay" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercise_one</string>
+    <string name="what_type_of_coffee">What type of Coffee?</string>
+    <string name="decaf">Decaf</string>
+    <string name="espresso">Espresso</string>
+    <string name="columbia">Columbian</string>
+    <string name="what_else_in_your_coffee">What else in your Coffee?</string>
+    <string name="sugar">Sugar</string>
+    <string name="pay">Pay</string>
+</resources>
